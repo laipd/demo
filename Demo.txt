@@ -3,7 +3,7 @@
  <script>
  var 
    function test(){
-     alert("yyyy")
+     alert("yyyy");
    }
  </script> 
 <line x1="10" y1="10" x2="10" y2="210" style="stroke:rgb(255,0,0);stroke-width:2" />
@@ -26,6 +26,9 @@
 <line x1="10" y1="110" x2="110" y2="10" style="stroke:rgb(255,0,0);stroke-width:2" />
 <line x1="110" y1="210" x2="210" y2="110" style="stroke:rgb(255,0,0);stroke-width:2" />
 
+<line x1="110" y1="10" x2="210" y2="110" style="stroke:rgb(255,0,0);stroke-width:2" />
+<line x1="10" y1="110" x2="110" y2="210" style="stroke:rgb(255,0,0);stroke-width:2" />
+
 <circle onclick="test()" cx="10" cy="10" fill="blue" r="6"></circle>
 <circle onclick="test()" cx="60" cy="10" fill="blue" r="6"></circle>
 <circle onclick="test()" cx="110" cy="10" fill="blue" r="6"></circle>
@@ -43,6 +46,3 @@
 <circle onclick="test()" cx="210" cy="210" fill="black" r="6"></circle>
 <circle onclick="test()" cx="210" cy="110" fill="black" r="6"></circle>
 <circle onclick="test()" cx="210" cy="160" fill="black" r="6"></circle>
-
-
-</svg>
