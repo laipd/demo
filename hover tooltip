@@ -1,0 +1,58 @@
+.spacing {
+  padding: 10px;
+  height: 10px;
+  width: 100%;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  height: 45px;
+  background-color: #FCF;
+  overflow-x:auto ;
+}
+
+.hasTooltip:hover .tooltip,
+.tooltip:hover {
+  display: block;
+}
+
+
+<div class="spacing">
+
+</div>
+<div class="hasTooltip">
+  I have a tooltip over me!
+  <span class="tooltip">
+    My special Tooltip.<br>
+    If you mouseover me I stay open
+  </span>
+</div>
+
+<div class="spacing">
+
+</div>
+<div class="hasTooltip">
+  I have a tooltip over me!
+  <span class="tooltip">
+    My special Tooltip.<br>
+    If you mouseover me I stay open
+    If you mouseover me I stay open
+    If you mouseover me I stay open 
+    If you mouseover me I stay open
+    If you mouseover me I stay open
+    If you mouseover me I stay open
+    If you mouseover me I stay open
+  </span>
+</div>
+
+<div class="spacing">
+
+</div>
+<div class="hasTooltip">
+  I have a tooltip over me!
+  <span class="tooltip">
+    My special Tooltip.<br>
+    If you mouseover me I stay open
+  </span>
+</div>
